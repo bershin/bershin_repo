@@ -6,6 +6,7 @@
     /User/bjohn
     $ mkdir projects
     $ cd  projects
+    ##Create a 
     $ git init fresh-project
     <git create a folder called fresh-project>
     $ cd fresh-project
@@ -182,6 +183,6 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOT
-IxMjY5XX0=
+eyJoaXN0b3J5IjpbMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MT
+YzNzE4NSw4NjA5MjEyNjldfQ==
 -->
