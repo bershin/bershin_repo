@@ -51,7 +51,7 @@ $ unzip ~/Download/initializr-verekia-4.0.zip
 $ mv initializr web-project
 $ cd web-project
 $ ls
-## 
+## Git will initialize a new repo using the current folder as working directory.
 $ git init
 $ ls -al
 $ cd .git
@@ -190,7 +190,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQ5OTEyMTgsMjc0NzY1NzM3LDEwMD
-A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
-NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbMTAyOTE2NDYyMSwyNzQ3NjU3MzcsMTAwMD
+g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
+LDg2MDkyMTI2OV19
 -->
