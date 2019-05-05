@@ -72,7 +72,35 @@ $ cd starter-web
 $ ls -la
 $ git status
 ```
-**Note**: origin - Remote reference.
+
+> **Note**: origin - Remote reference.
+
+## Add commit pull & push
+```
+$ pwd
+/User/bjohn
+$ cd  projects/starter-web
+$ vim hipster.txt
+<write one paragraph>
+$ git status
+<file is not under git control>
+$ git add hipster.txt
+$ git status
+<Says it is in staging area>
+$ git commit
+<Invoke the default editor>
+$ git status
+$ git pull origin master
+$ git push origin master
+```
+Tracked files
+
+
+Editing Files
+
+Recursive add
+
+Backout changes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjY3NjI1OSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbMTgyODY2MDQwMSw4NjA5MjEyNjldfQ==
 -->
