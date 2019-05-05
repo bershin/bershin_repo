@@ -17,10 +17,12 @@
     $ ls
     $ cd ..
     $ git status
-    <Analyse>
+    <Shows, we are in default master branch>
+    <You are in initial commit>
     $ vim hipster.txt
     <write one paragraph>
     $ git status
+    <
     $ git add hipster.txt
     $ git status
     $ git commit
@@ -183,6 +185,6 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMDM2OTI1LDE2MTE0MzgzMjAsNjMxNj
-A0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbLTEzMTA4NDQ5MDEsMTYxMTQzODMyMCw2Mz
+E2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
