@@ -34,7 +34,7 @@
 > Note: root-commit means very first commit of this repository.
 > Copt text from [hipster website](http://hipsum.co)
 
-### Add existing project as repository
+### Add existing project as Git repository
 
 Get the source code from below website [initializr](http://initializr.com)
 
@@ -191,7 +191,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzM5NzUzNywyNzQ3NjU3MzcsMTAwMD
+eyJoaXN0b3J5IjpbMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
 g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
 LDg2MDkyMTI2OV19
 -->
