@@ -93,14 +93,91 @@ $ git status
 $ git pull origin master
 $ git push origin master
 ```
-Tracked files
 
+## Tracked files
 
-Editing Files
-
-Recursive add
-
-Backout changes
+```
+$ mate ~/.gitconfig
+[user]
+  name = john bershin
+  email = bershin@gmail.com
+[core]
+  editor = mate -w
+$ vim hipster.txt
+<Append with second paragraph>
+$ git commit -am "Adding more ipsum text"
+$ git ls-files
+<List of files that are tracked by git in the current directory>
+$ vim newfile.txt
+$ git ls-files
+<Cannot find the file>
+$ git status
+$ git add newfile.txt
+$ git ls-files
+<Now you can see>
+```
+## Editing Files
+```
+$ vim hipster.txt
+<Append extra paragraph>
+$ git status
+<See newfile.txt in staging area and hipster.txt in modified stage>
+$ git commit -m "commited new file"
+<This will commit only the newfile.txt>
+$ git status
+$ git add .
+<Add modified hipster.txt in staging area>
+$ git status
+$ vim hipster.txt
+<Append extra paragraph>
+$ git status
+<See hipster.txt in staging area as well as in modified stage>
+$ git commit -am "add content to repository"
+$ git status
+```
+## Recursive add
+```
+$ mkdir -p level1/level2/level3
+$ cd level1
+$ vim level1-file.txt
+<Append some text>
+$ cd level2
+$ vim level2-file.txt
+<Append some text>
+$ cd level3
+$ vim level3-file.txt
+<Append some text>
+$ cd ../../..
+$ git status
+<Do not show sub files and folders in untracked>
+$ git add .
+<Add the file recursively from this point forward>
+$ git commit
+```
+## Backout changes
+```
+$ git status
+<Clean working directory>
+$ cd level1
+$ vim level1-file.txt
+<Have 2 paragraph, copy 1 more>
+$ git status
+<Modified file not indexed>
+$ git add level1-file.txt
+$ git status
+<modified file indexed but not commited>
+$ git reset HEAD level1-file.txt
+<backout changes from staging area to working area>
+$ git status
+<level1-file.txt file is in unstage area>
+$ cat level1-file.txt
+<Still shows 3 paragraph>
+$ git checkout -- level1-file.txt
+$ git status
+<Clean working directory>
+$ cat level1-file.txt
+<Shows 2 paragraph>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODY2MDQwMSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
