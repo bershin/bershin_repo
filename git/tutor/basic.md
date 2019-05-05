@@ -60,6 +60,7 @@ $ cd ..
 $ git status
 <Analyse, branch, is that a initial commit, any untracked files>
 $ git add .
+<Period will recurcively add all files as part of this project>
 $ git status
 $ git commit -m "My first" commit, inline"
 <Invoke the default editor>
@@ -190,7 +191,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTE2NDYyMSwyNzQ3NjU3MzcsMTAwMD
+eyJoaXN0b3J5IjpbMTEyMzM5NzUzNywyNzQ3NjU3MzcsMTAwMD
 g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
 LDg2MDkyMTI2OV19
 -->
