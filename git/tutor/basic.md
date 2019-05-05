@@ -1,6 +1,7 @@
 ## Basic command Overview
 
 ### Starting with a fresh project
+
     $ pwd
     /User/bjohn
     $ mkdir projects
@@ -58,7 +59,20 @@ $ git status
     $ cd /User/bjohn/projects/web-project
     $ rm -rf .git
 
+### Clone git repository
+- http://bitly.com/git-start-web
+- https://github.com/scm-ninja/starter-web
 
+Fork to your github
+Click clone or download and copy the url to clipboard
+
+```
+$ git clone https://github.com/scm-ninja/starter-web.git
+$ cd starter-web
+$ ls -la
+$ git status
+```
+**Note**: origin - Remote reference.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE4NjMyNDIsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbMTAyMjY3NjI1OSw4NjA5MjEyNjldfQ==
 -->
