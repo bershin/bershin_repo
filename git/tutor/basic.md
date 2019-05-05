@@ -41,15 +41,17 @@ Get the source code from below website [initializr](http://initializr.com)
  1. select bootstrap.
  2. Choose all filed.
  3. Download the zip file
-
+ 
 ```
 $ pwd
 /User/bjohn
 $ cd  projects
 $ unzip ~/Download/initializr-verekia-4.0.zip
+## Rename the folder to look like a real project.
 $ mv initializr web-project
 $ cd web-project
 $ ls
+## 
 $ git init
 $ ls -al
 $ cd .git
@@ -188,7 +190,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIyNjU4MzAsMjc0NzY1NzM3LDEwMD
+eyJoaXN0b3J5IjpbLTE0NjQ5OTEyMTgsMjc0NzY1NzM3LDEwMD
 A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
 NSw4NjA5MjEyNjldfQ==
 -->
