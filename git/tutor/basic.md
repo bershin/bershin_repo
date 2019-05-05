@@ -7,8 +7,11 @@
     $ mkdir projects
     $ cd  projects
     $ git init fresh-project
+    <git create a folder called fresh-project>
     $ cd fresh-project
     $ ls -al
+    <.git is where the git repository lives>
+    <This is the working directory>
     $ cd .git
     $ ls
     $ cd ..
@@ -179,5 +182,6 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbNjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOT
+IxMjY5XX0=
 -->
