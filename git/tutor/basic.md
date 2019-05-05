@@ -1,7 +1,6 @@
 ## Basic command Overview
 
 ### Starting with a fresh project
-
     $ pwd
     /User/bjohn
     $ mkdir projects
@@ -26,7 +25,7 @@
 > Note: root-commit means very first commit.
 > Copt text from [hipster website](http://hipsum.co)
 
-Add existing project as repository
+### Add existing project as repository
 
 Get the source code from below website [initializr](http://initializr.com)
 
@@ -34,25 +33,25 @@ Get the source code from below website [initializr](http://initializr.com)
  2. Download the zip file
 
 ```
-    $ pwd
-    /User/bjohn
-    $ cd  projects
-    $ unzip ~/Download/initializr-verekia-4.0.zip
-    $ mv initializr web-project
-    $ cd web-project
-    $ ls
-    $ git init
-    $ ls -al
-    $ cd .git
-    $ ls
-    $ cd ..
-    $ git status
-    <Analyse, branch, is that a initial commit, any untracked files>
-    $ git add .
-    $ git status
-    $ git commit -m "My first" commit, inline"
-    <Invoke the default editor>
-    $ git status
+$ pwd
+/User/bjohn
+$ cd  projects
+$ unzip ~/Download/initializr-verekia-4.0.zip
+$ mv initializr web-project
+$ cd web-project
+$ ls
+$ git init
+$ ls -al
+$ cd .git
+$ ls
+$ cd ..
+$ git status
+<Analyse, branch, is that a initial commit, any untracked files>
+$ git add .
+$ git status
+$ git commit -m "My first" commit, inline"
+<Invoke the default editor>
+$ git status
 ```
 ### Setup a project be no longer manage my git
 
@@ -61,5 +60,5 @@ Get the source code from below website [initializr](http://initializr.com)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDg4NTkyNyw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTE1ODE4NjMyNDIsODYwOTIxMjY5XX0=
 -->
