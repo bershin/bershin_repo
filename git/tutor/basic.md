@@ -28,7 +28,33 @@
 
 Add existing project as repository
 
-Get the source code from below website 
+Get the source code from below website [initializr](http://initializr.com)
+
+ 1. select bootstrap 
+ 2. Download the zip file
+
+$ pwd
+/User/bjohn
+$ cd  projects
+$ unzip ~/Download/initializr-verekia-4.0.zip
+$ mv initializr web-project
+$ cd web-project
+$ ls
+$ git init
+$ ls -al
+$ cd .git
+$ ls
+$ cd ..
+$ git status
+<Analyse, branch, is that a initial commit, any untracked files>
+$ git add .
+$ git status
+$ git commit -m "My first" commit, inline"
+<Invoke the default editor>
+$ git status
+
+Setup a project be no longer manage my git
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDE1MjgzMyw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTcwMTE0ODMzNSw4NjA5MjEyNjldfQ==
 -->
