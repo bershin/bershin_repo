@@ -31,7 +31,7 @@
     <Invoke the default editor>
     $ git status
 
-> Note: root-commit means very first commit.
+> Note: root-commit means very first commit of this repository.
 > Copt text from [hipster website](http://hipsum.co)
 
 ### Add existing project as repository
@@ -187,6 +187,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMT
-YwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMT
+QzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjld
+fQ==
 -->
