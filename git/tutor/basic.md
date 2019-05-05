@@ -10,10 +10,10 @@
     $ git init fresh-project
     <git create a folder called fresh-project>
     $ cd fresh-project
-    $ ls -al
-    <.git is where the git repository lives>
     <This is the working directory>
+    $ ls -al
     $ cd .git
+    <.git is where the actual git repository lives>
     $ ls
     $ cd ..
     $ git status
@@ -183,6 +183,6 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1Nzc5NDI1LDE2MTE0MzgzMjAsNjMxNj
+eyJoaXN0b3J5IjpbNDczMDM2OTI1LDE2MTE0MzgzMjAsNjMxNj
 A0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
