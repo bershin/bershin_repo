@@ -24,6 +24,7 @@
     $ git status
 
 > Note: root-commit means very first commit.
+> Copt text from [hipster website](http://hipsum.co)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MjQwMDQzXX0=
+eyJoaXN0b3J5IjpbODYwOTIxMjY5XX0=
 -->
