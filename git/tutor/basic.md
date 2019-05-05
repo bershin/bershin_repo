@@ -1,12 +1,12 @@
 ## Basic command Overview
 
-### Starting with a fresh project
+### Starting with a fresh project with out existing source code
 
     $ pwd
     /User/bjohn
     $ mkdir projects
     $ cd  projects
-    ##Create a 
+    ##Create a new git repository
     $ git init fresh-project
     <git create a folder called fresh-project>
     $ cd fresh-project
@@ -183,6 +183,6 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MT
-YzNzE4NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbNzU1Nzc5NDI1LDE2MTE0MzgzMjAsNjMxNj
+A0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
