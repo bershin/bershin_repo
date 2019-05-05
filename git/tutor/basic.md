@@ -22,9 +22,11 @@
     $ vim hipster.txt
     <write one paragraph>
     $ git status
-    <
+    <Shows the untracked files>
     $ git add hipster.txt
+    <Add to git index/staging area>
     $ git status
+    <Shows changes to be commited>
     $ git commit
     <Invoke the default editor>
     $ git status
@@ -185,6 +187,6 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA4NDQ5MDEsMTYxMTQzODMyMCw2Mz
-E2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMT
+YwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
 -->
