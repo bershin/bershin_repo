@@ -190,6 +190,7 @@ $ git status
 <level1-file.txt file is in unstage area>
 $ cat level1-file.txt
 <Still shows 3 paragraph>
+#Make the file same as last commited,with 2 paragraph
 $ git checkout -- level1-file.txt
 $ git status
 <Clean working directory>
@@ -197,9 +198,9 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1Mz
-gzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5
-LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMT
-QzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjld
-fQ==
+eyJoaXN0b3J5IjpbMjAwNjE5OTg2NywxMzM5NzA2NTg5LDE3Nz
+AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
+LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
+g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
+LDg2MDkyMTI2OV19
 -->
