@@ -236,13 +236,30 @@ $ git status
 $ git mv level2.txt 2.txt
 $ ls
 $ git status
-$ git mv 2.txt 
+$ git mv 2.txt level2.txt
 $ git status
-$ git commit
+```
+
+### Move the file to another directory
+
+```
+$ cd level1/level2
+$ ls
+$ git status
+$ git mv level2.txt level3
+$ ls
+$ cd level3
+ ls
+$ git status
+$ cd ..
+$ git status
+$ git mv 2.txt level2.txt
+$ git status
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY2NDI5NzAsMTMzOTcwNjU4OSwxNz
-cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
-MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
-A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
-NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTM3NDkxOTI5OSwxMzM5NzA2NTg5LDE3Nz
+AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
+LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
+g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
+LDg2MDkyMTI2OV19
 -->
