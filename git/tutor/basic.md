@@ -280,10 +280,32 @@ $ cd level3/
 $ ls
 $ git status
 ```
+
+### Rename the file using GUI
+Rename the file using right click
+```
+$ cd level1/
+$ ls
+$ git status
+<Delete and am add>
+$ mv level2.txt ..
+$ ls
+$ cd ..
+$ ls
+$ git status
+<Looks like we deleted and created a new file>
+$ git add -A
+$ git status
+$ git commit
+$ cd ..
+$ cd level3/
+$ ls
+$ git status
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4MjEzMzc4LDEzMzk3MDY1ODksMTc3MD
-A3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIs
-MjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwOD
-QzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUs
-ODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbLTIzODA2MjA5MCwxMzM5NzA2NTg5LDE3Nz
+AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
+LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
+g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
+LDg2MDkyMTI2OV19
 -->
