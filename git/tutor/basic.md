@@ -418,13 +418,20 @@ $ git show <sha1-id>
 ## Git Alias
 
 ```
-
+$ cd projects/starter-web/
+$ git status
+<Clean WD>
+$ git log --all --graph --decorate --oneline
+$ git hist
+<Its not a command>
+$ git
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM1MDU1MjYsLTQ0OTE1MDc0LDc3Nz
-UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
-LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
-c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
-LDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbLTE0NDM1MjcxMDAsLTE3NTM1MDU1MjYsLT
+Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
+OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
+g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
+MiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MD
+kyMTI2OV19
 -->
