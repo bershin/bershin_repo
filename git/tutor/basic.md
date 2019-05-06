@@ -203,15 +203,19 @@ $ cat level1-file.txt
 $ cd level1/level2/level3
 $ ls
 $ git status
+<Nothing to commit>
 $ git mv level3-file.txt level3.txt
 $ ls
-< git renamed the file in OS lavel>
+< git renamed the file in OS level>
 $ git status
 <Git staged but not commited>
+$ git commit -m "renaming level3 file"
+<Rename the file before 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYwNDM4MzksMTMzOTcwNjU4OSwxNz
-cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
-MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
-A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
-NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbMTc3NDE1MTc3NywxMzM5NzA2NTg5LDE3Nz
+AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
+LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
+g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
+LDg2MDkyMTI2OV19
 -->
