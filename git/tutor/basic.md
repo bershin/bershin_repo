@@ -463,12 +463,17 @@ $ vim .gitignore
 log/
 $ git status
 ```
-Cleanup and Back to Origin (GitHub)
+
+## Cleanup and Back to Origin (GitHub)
+```
+$ cd projects/starter-web/
+$ git status
+<clean, but a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAyOTY0NDEsLTE3NTM1MDU1MjYsLT
-Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
-OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
-g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
-MiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MD
-kyMTI2OV19
+eyJoaXN0b3J5IjpbLTc4ODA2MzQyNSwtMTc1MzUwNTUyNiwtND
+Q5MTUwNzQsNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5
+MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExOD
+QxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwODQzODAy
+LDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOT
+IxMjY5XX0=
 -->
