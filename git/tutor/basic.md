@@ -396,12 +396,19 @@ $ git status
 ## History
 
 ```
-$ g
+$ git help log
+<Show all options>
+$ cd projects/starter-web/
+$ git status
+$ git log
+<Commit history in reverse order>
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ0Mjg0MDgsLTQ0OTE1MDc0LDc3Nz
-UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
-LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
-c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
-LDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbMjI1MDgwNzk5LC00NDkxNTA3NCw3Nzc1Mz
+EwMzYsMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4
+Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3Nz
+A0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2
+MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
