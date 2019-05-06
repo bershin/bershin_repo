@@ -203,9 +203,13 @@ $ cat level1-file.txt
 $ cd level1/level2/level3
 $ ls
 $ git status
-$ vim level1-file.txt
+$ git mv level3-file.txt level3.txt
+$ ls
+< git renamed the file in OS lavel>
+$ git status
+<Git staged but not commited>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg4MTU1NTgsMTMzOTcwNjU4OSwxNz
+eyJoaXN0b3J5IjpbLTE0ODYwNDM4MzksMTMzOTcwNjU4OSwxNz
 cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
 MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
 A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
