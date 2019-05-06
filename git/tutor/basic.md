@@ -262,10 +262,6 @@ $ git status
 $ cd ..
 $ git status
 $ git commit
-ls
-$ cd level3/
-$ ls
-$ git status
 ```
 
 ### Move the file to another directory using OS command
@@ -369,9 +365,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDkzNjg3LDc3NzUzMTAzNiwxMzM5Nz
-A2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwx
-MzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3Nj
-U3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1Nywt
-MzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbMTcxODQ1NzczMCw3Nzc1MzEwMzYsMTMzOT
+cwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDks
+MTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0Nz
+Y1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcs
+LTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
