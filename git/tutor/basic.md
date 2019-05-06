@@ -326,10 +326,17 @@ $ git commit -m "Deleting new file"
 $ git status
 $ ls
 $ git ls-files
-<Clean>
+$ git rm hipster.txt
+$ ls
+<Missing from 
+$ git status
+$ git reset HEAD hipster.txt
+<Unstaged the deletion>
+$ git status
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTMzMzQ1OSwxMzM5NzA2NTg5LDE3Nz
+eyJoaXN0b3J5IjpbMTY5NzUyOTAzMSwxMzM5NzA2NTg5LDE3Nz
 AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
 LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
 g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
