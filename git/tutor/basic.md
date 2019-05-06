@@ -404,13 +404,16 @@ $ git log
 <Commit history in reverse order>
 $ git log --abbrev-commit
 <Commit id is shortened>
-$ git log --oneline --graph 
+$ git log --oneline --graph --decorate
+<Compress the entry to one line, add labels adn show in graph>
+
+$ git log ae6f872...761b911
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI2OTczMzMsLTQ0OTE1MDc0LDc3Nz
-UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
-LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
-c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
-LDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbLTIxMDc1MjUwOSwtNDQ5MTUwNzQsNzc3NT
+MxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEs
+ODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4Nz
+cwNDgzLDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAs
+NjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
