@@ -221,11 +221,15 @@ $ ls
 $ git status
 $ mv level2-file.txt level2.txt
 $ ls
+$ git status
+$ git add -A
+$ git status
+$ git commit
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgyMjU0NzcsMTMzOTcwNjU4OSwxNz
-cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
-MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
-A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
-NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTI1MjI3OTEsMTMzOTcwNjU4OSwxNzcwMD
+c0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEwMiwy
+MTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4ND
+M4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4
+NjA5MjEyNjldfQ==
 -->
