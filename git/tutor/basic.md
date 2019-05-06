@@ -71,6 +71,8 @@ $ git status
     $ cd /User/bjohn/projects/web-project
     $ rm -rf .git
 
+> Still we will have all files inside the project folder.
+
 ### Clone git repository
 - http://bitly.com/git-start-web
 - https://github.com/scm-ninja/starter-web
@@ -191,7 +193,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
-g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
-LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbLTE3MDk2NDM1MzMsMTkzODc3MDQ4MywyNz
+Q3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1
+NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
 -->
