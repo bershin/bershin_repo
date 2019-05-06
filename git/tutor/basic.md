@@ -468,9 +468,13 @@ $ git status
 ```
 $ cd projects/starter-web/
 $ git status
-<clean, but a>
+<clean, but ahead of origin>
+$ git pull origin master
+$ git push origin master
+<Go to browser and see>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODA2MzQyNSwtMTc1MzUwNTUyNiwtND
+eyJoaXN0b3J5IjpbLTg1NTMxMTI3NiwtMTc1MzUwNTUyNiwtND
 Q5MTUwNzQsNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5
 MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExOD
 QxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwODQzODAy
