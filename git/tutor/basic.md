@@ -226,10 +226,23 @@ $ git add -A
 $ git status
 $ git commit
 ```
+
+### Rename the file in Git level
+
+```
+$ cd level1/level2
+$ ls
+$ git status
+$ git mv level2.txt 2.txt
+$ ls
+$ git status
+$ git mv 2.txt 
+$ git status
+$ git commit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjI3OTEsMTMzOTcwNjU4OSwxNzcwMD
-c0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEwMiwy
-MTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4ND
-M4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4
-NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTExMzY2NDI5NzAsMTMzOTcwNjU4OSwxNz
+cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
+MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
+A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
+NSw4NjA5MjEyNjldfQ==
 -->
