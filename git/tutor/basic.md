@@ -322,12 +322,18 @@ $ git status
 
 ```
 $ git ls-files
+<See the newfile.txt>
 $ ls
+<See the newfile.txt>
 $ git rm newfile.txt
 $ ls
+<Cannot see the newfile.txt>
 $ git status
+<Git staged the file>
 $ git commit -m "Deleting new file"
 $ git status
+```
+Backout a staged deletion
 $ ls
 $ git ls-files
 $ git rm hipster.txt
@@ -365,9 +371,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTE1MDc0LDc3NzUzMTAzNiwxMzM5Nz
-A2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwx
-MzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3Nj
-U3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1Nywt
-MzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbMTM0MzIyMTI4LC00NDkxNTA3NCw3Nzc1Mz
+EwMzYsMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4
+Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3Nz
+A0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2
+MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
