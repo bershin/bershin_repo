@@ -371,14 +371,18 @@ $ git status
 $ git add -A
 <Add and update>
 $ git status
-<>
+<Has the deletion staged>
+$ git commit
+$ git status
+<Clean WD>
+$ 
 ```
 
 ### Delete file not tracked by git
 
 ```
 $ ls
-$ rm -rf level1
+$ rm -rf level1/
 $ ls
 $ git status
 <See all the untracked file inside the folders>
@@ -388,9 +392,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzOTA5NTE4LC00NDkxNTA3NCw3Nzc1Mz
-EwMzYsMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4
-Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3Nz
-A0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2
-MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbMTA3MzAzNzUzNSwtNDQ5MTUwNzQsNzc3NT
+MxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEs
+ODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4Nz
+cwNDgzLDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAs
+NjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
