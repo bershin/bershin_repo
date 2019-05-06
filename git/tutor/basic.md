@@ -343,11 +343,31 @@ $ rm hipster.txt
 $ ls
 $ git status
 $ git add -A
+$ git status
+<Clean WD>
 ```
+
+### Delete file not tracked by git
+
+```
+$ ls
+$ rm -rf level1
+$ ls
+$ git status
+<See the untracked file>
+$ git rm doomed.txt
+<Git complain it can`t match the file>
+$ rm doomed.txt
+$ ls
+<File is gone>
+$ git status
+<Clean>
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc1NzU3NDAsMTMzOTcwNjU4OSwxNz
-cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
-MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
-A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
-NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbMzQ1MDYyOTAxLDEzMzk3MDY1ODksMTc3MD
+A3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIs
+MjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwOD
+QzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUs
+ODYwOTIxMjY5XX0=
 -->
