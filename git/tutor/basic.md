@@ -439,10 +439,14 @@ $ cd projects/starter-web/
 $ git status
 < Not clean>
 $ vim .gitignore
+.DS_Store
+$ git status
+$ git add .gitignore
+$ git commit
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk3MzA3NDUsLTE3NTM1MDU1MjYsLT
+eyJoaXN0b3J5IjpbLTE0MjQ5MDM2MzYsLTE3NTM1MDU1MjYsLT
 Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
 OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
 g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
