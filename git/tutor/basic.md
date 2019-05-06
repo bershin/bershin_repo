@@ -77,11 +77,9 @@ $ git status
 - http://bitly.com/git-start-web
 - https://github.com/scm-ninja/starter-web
 
-> Fork any of those repository
+> Fork any of those repository to your github
 
-Fork to your github
 Click clone or download and copy the url to clipboard
-
 ```
 $ git clone https://github.com/scm-ninja/starter-web.git
 $ cd starter-web
@@ -195,7 +193,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY0NjYwNjcsMTkzODc3MDQ4MywyNz
-Q3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1
-NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3ND
+c2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3
+LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
