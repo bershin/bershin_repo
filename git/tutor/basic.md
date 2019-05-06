@@ -448,14 +448,21 @@ $ git status
 $ vim access.log
 $ vim .gitignore
 .DS_Store
-*
+*.log
+$ git status
+<Log file is excluded>
+$ mkdir log
+$ mv access.log log
+$ cd log
+$ cp access.log access-2019-11-03
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDYwNzE0MCwtMTc1MzUwNTUyNiwtND
-Q5MTUwNzQsNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5
-MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExOD
-QxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwODQzODAy
-LDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOT
-IxMjY5XX0=
+eyJoaXN0b3J5IjpbLTE3MzE3OTYyODIsLTE3NTM1MDU1MjYsLT
+Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
+OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
+g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
+MiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MD
+kyMTI2OV19
 -->
