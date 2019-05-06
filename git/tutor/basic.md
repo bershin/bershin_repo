@@ -426,13 +426,17 @@ $ git hist
 <Its not a command>
 $ git config --global alias.hist "log --all --graph --decorate --oneline"
 $ git hist
+$ vim ~/.gitconfig
+[alias]
+  hist = log --all --graph --decorate --oneline
+$ git hist
 ```
-
+Ignore unw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTcxMTUyOTMsLTE3NTM1MDU1MjYsLT
-Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
-OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
-g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
-MiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MD
-kyMTI2OV19
+eyJoaXN0b3J5IjpbOTk3MzI1NzM3LC0xNzUzNTA1NTI2LC00ND
+kxNTA3NCw3Nzc1MzEwMzYsMTMzOTcwNjU4OSwxNzcwMDc0Mzkx
+LDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4ND
+E1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIs
+MTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5Mj
+EyNjldfQ==
 -->
