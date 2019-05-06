@@ -424,11 +424,12 @@ $ git status
 $ git log --all --graph --decorate --oneline
 $ git hist
 <Its not a command>
-$ git
+$ git config --global alias.hist "log --all --graph --decorate --oneline"
+$ git hist
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM1MjcxMDAsLTE3NTM1MDU1MjYsLT
+eyJoaXN0b3J5IjpbLTE1MTcxMTUyOTMsLTE3NTM1MDU1MjYsLT
 Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
 OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
 g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
