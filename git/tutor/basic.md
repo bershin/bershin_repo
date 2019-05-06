@@ -455,11 +455,17 @@ $ mkdir log
 $ mv access.log log
 $ cd log
 $ cp access.log access-2019-11-03
-
+$ git status
+<See the log folder>
+$ vim .gitignore
+.DS_Store
+*.log
+log/
+$ git status
 ```
-
+Cleanup and Back to Origin (GitHub)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE3OTYyODIsLTE3NTM1MDU1MjYsLT
+eyJoaXN0b3J5IjpbLTEwNjAyOTY0NDEsLTE3NTM1MDU1MjYsLT
 Q0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQz
 OTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMT
 g0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0Mzgw
