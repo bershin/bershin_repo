@@ -296,9 +296,20 @@ $ git status
 ```
 
 ## Delete Files in git
-
+```
+$ git status
+$ mate doomed.txt
+$ ls
+$ git status
+<See the untracked file>
+$ git rm doomed.txt
+<Git complain it can`t match the file>
+$ rm doomed.txt
+$ ls
+<
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk4MDY4NjQsMTMzOTcwNjU4OSwxNz
+eyJoaXN0b3J5IjpbLTEyMzgxMDAzOTQsMTMzOTcwNjU4OSwxNz
 cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
 MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
 A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
