@@ -389,12 +389,19 @@ $ git status
 $ git add -A
 $ git status
 $ git commit -m "deleteting level1 and all children"
+$ git status
+<Clean WD>
 ```
 
+## History
+
+```
+$ g
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzAzNzUzNSwtNDQ5MTUwNzQsNzc3NT
-MxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEs
-ODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4Nz
-cwNDgzLDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAs
-NjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbLTExODQ0Mjg0MDgsLTQ0OTE1MDc0LDc3Nz
+UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
+LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
+c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
+LDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
 -->
