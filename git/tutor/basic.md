@@ -213,7 +213,7 @@ $ git commit -m "renaming level3 file"
 <Best Practise: Rename the file before making changes>
 ```
 
-### Rename the file in OS level 
+### Rename the file in OS level (Bash Command)
 
 ```
 $ cd level1/level2
@@ -222,9 +222,12 @@ $ git status
 $ mv level2-file.txt level2.txt
 $ ls
 $ git status
+< Git sees this as two operation, delete and add>
 $ git add -A
+<Recursily add and files including renamed files>
 $ git status
 $ git commit
+<Shows the renamed confidence level as well>
 ```
 
 ### Rename the file in Git level
@@ -361,9 +364,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MjYxNTksNzc3NTMxMDM2LDEzMzk3MD
-Y1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEz
-MDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NT
-czNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0z
-NTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbLTE4NDk3Nzg2NDcsNzc3NTMxMDM2LDEzMz
+k3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5
+LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3ND
+c2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3
+LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
