@@ -107,6 +107,7 @@ $ git commit
 $ git status
 <Head of orgin/master by 1 commit>
 $ git pull origin master
+<Best practice>
 $ git push origin master
 ```
 
@@ -195,8 +196,8 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY2NzgzNTYsMTMwNTIyOTEwMiwyMT
-E4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4
-MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4Nj
-A5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExOD
+QxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwODQzODAy
+LDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOT
+IxMjY5XX0=
 -->
