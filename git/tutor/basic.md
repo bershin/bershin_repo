@@ -169,7 +169,7 @@ $ cd ../../..
 $ git status
 <Do not show sub files and folders in untracked>
 $ git add .
-<Add the file recursively from this point forward>
+<Add the file recursively from this point forward to the git index>
 $ git commit
 ```
 ## Backout changes
@@ -197,8 +197,9 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDA3NDM5MSwxNTM4MzkwNDEsODI5NT
-I3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgz
-LDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNj
-A0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1Mz
+gzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5
+LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMT
+QzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjld
+fQ==
 -->
