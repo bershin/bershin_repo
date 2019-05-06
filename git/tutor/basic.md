@@ -296,6 +296,9 @@ $ git status
 ```
 
 ## Delete Files in git
+
+### Delete file not tracked by git
+
 ```
 $ git status
 $ mate doomed.txt
@@ -306,12 +309,33 @@ $ git rm doomed.txt
 <Git complain it can`t match the file>
 $ rm doomed.txt
 $ ls
-<
+<File is gone>
+$ git status
+<Clean>
+```
+
+### Delete file tracked by git
+
+```
+$ git ls-files
+$ ls
+$ git rm newfile.txt
+$ mate doomed.txt
+$ ls
+$ git status
+<See the untracked file>
+$ git rm doomed.txt
+<Git complain it can`t match the file>
+$ rm doomed.txt
+$ ls
+<File is gone>
+$ git status
+<Clean>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgxMDAzOTQsMTMzOTcwNjU4OSwxNz
-cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
-MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
-A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
-NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbNjUyMjk4MzE2LDEzMzk3MDY1ODksMTc3MD
+A3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIs
+MjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwOD
+QzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUs
+ODYwOTIxMjY5XX0=
 -->
