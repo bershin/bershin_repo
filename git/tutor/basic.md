@@ -141,7 +141,7 @@ $ vim hipster.txt
 $ git status
 <See newfile.txt in staging area and hipster.txt in modified stage>
 $ git commit -m "commited new file"
-<This will commit only the newfile.txt>
+<This will commit only the newfile.txt, >
 $ git status
 $ git add .
 <Add modified hipster.txt in staging area>
@@ -197,8 +197,8 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1Mj
-I5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3Mzcs
-MTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNj
-M3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbMTU3MDcyNDQ2OSwxNTM4MzkwNDEsODI5NT
+I3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgz
+LDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNj
+A0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
