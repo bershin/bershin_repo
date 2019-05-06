@@ -348,7 +348,10 @@ $ git status
 <Deletion is staged>
 $ git reset HEAD hipster.txt
 <Unstaged the deletion>
+$ ls
+<Still not in WD>
 $ git status
+<The file is still tracked>
 $ git checkout -- hipster.txt
 $ ls
 <Can locate hipster.txt>
@@ -377,9 +380,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc4MDU3NDMsLTQ0OTE1MDc0LDc3Nz
-UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
-LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
-c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
-LDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbLTM4NjU3NjkwLC00NDkxNTA3NCw3Nzc1Mz
+EwMzYsMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4
+Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3Nz
+A0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2
+MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
