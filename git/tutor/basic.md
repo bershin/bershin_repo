@@ -291,7 +291,7 @@ Rename the file using right click
 $ cd level1/
 $ ls
 $ git status
-<Delete and am add>
+<Delete and add>
 $ git add level1.txt
 $ git add -u
 <Update the git index>
@@ -365,9 +365,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODQ1NzczMCw3Nzc1MzEwMzYsMTMzOT
-cwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDks
-MTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0Nz
-Y1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcs
-LTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTQ0OTE1MDc0LDc3NzUzMTAzNiwxMzM5Nz
+A2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwx
+MzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3Nj
+U3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1Nywt
+MzUxNjM3MTg1LDg2MDkyMTI2OV19
 -->
