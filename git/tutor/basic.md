@@ -210,10 +210,10 @@ $ ls
 $ git status
 <Git staged but not commited>
 $ git commit -m "renaming level3 file"
-<Rename the file before making changes>
+<Best Practise: Rename the file before making changes>
 ```
 
-### Rename the file in OS level
+### Rename the file in OS level 
 
 ```
 $ cd level1/level2
@@ -361,9 +361,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MD
-A3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIs
-MjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwOD
-QzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUs
-ODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbMzQ0MjYxNTksNzc3NTMxMDM2LDEzMzk3MD
+Y1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEz
+MDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NT
+czNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0z
+NTE2MzcxODUsODYwOTIxMjY5XX0=
 -->
