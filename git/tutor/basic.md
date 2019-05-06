@@ -239,8 +239,12 @@ $ git status
 $ git mv level2.txt 2.txt
 $ ls
 $ git status
+<Staged the file>
 $ git mv 2.txt level2.txt
+$ ls
+<OS level the rename has happened>
 $ git status
+<Clean WD>
 ```
 
 ### Move the file to another directory using Git
@@ -364,7 +368,7 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk3Nzg2NDcsNzc3NTMxMDM2LDEzMz
+eyJoaXN0b3J5IjpbLTE3MjM0ODc1MDEsNzc3NTMxMDM2LDEzMz
 k3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5
 LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3ND
 c2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3
