@@ -123,7 +123,7 @@ $ mate ~/.gitconfig
 $ vim hipster.txt
 <Append with second paragraph>
 $ git commit -am "Adding more ipsum text"
-<Applicab
+<Applicable only for tracked file>
 $ git ls-files
 <List of files that are tracked by git in the current directory>
 $ vim newfile.txt
@@ -197,8 +197,8 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA3MDQ3MTMsODI5NTI3ODQ5LDEzMD
-UyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTcz
-NywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNT
-E2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1Mj
+I5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3Mzcs
+MTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNj
+M3MTg1LDg2MDkyMTI2OV19
 -->
