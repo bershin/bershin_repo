@@ -406,12 +406,16 @@ $ git log --abbrev-commit
 <Commit id is shortened>
 $ git log --oneline --graph --decorate
 <Compress the entry to one line, add labels adn show in graph>
-
+# Show a range of commit
 $ git log ae6f872...761b911
+$ git log --since="3 days ago"
+# commit involves a specific file
+$ git log -- hipster.txt
+$ git log --follow -- level1
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc1MjUwOSwtNDQ5MTUwNzQsNzc3NT
+eyJoaXN0b3J5IjpbMTgwMzA4MDYwNSwtNDQ5MTUwNzQsNzc3NT
 MxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEs
 ODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4Nz
 cwNDgzLDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAs
