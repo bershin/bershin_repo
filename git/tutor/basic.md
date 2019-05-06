@@ -357,13 +357,21 @@ $ ls
 <Can locate hipster.txt>
 $ git status
 <Clean WD>
+```
+
+### Remove file using bash command
+
+```
 $ ls
 $ rm hipster.txt
 $ ls
+<No longer listed>
 $ git status
+<File is tracked>
 $ git add -A
+<Add and update>
 $ git status
-<Clean WD>
+<>
 ```
 
 ### Delete file not tracked by git
@@ -380,7 +388,7 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjU3NjkwLC00NDkxNTA3NCw3Nzc1Mz
+eyJoaXN0b3J5IjpbNDkzOTA5NTE4LC00NDkxNTA3NCw3Nzc1Mz
 EwMzYsMTMzOTcwNjU4OSwxNzcwMDc0MzkxLDE1MzgzOTA0MSw4
 Mjk1Mjc4NDksMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mzg3Nz
 A0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMyMCw2
