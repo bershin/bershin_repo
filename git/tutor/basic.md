@@ -338,12 +338,16 @@ $ ls
 <Can locate hipster.txt>
 $ git status
 <Clean WD>
-
+$ ls
+$ rm hipster.txt
+$ ls
+$ git status
+$ git add -A
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjQ0NjA0MSwxMzM5NzA2NTg5LDE3Nz
-AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
-LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
-g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
-LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbLTEzNTc1NzU3NDAsMTMzOTcwNjU4OSwxNz
+cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
+MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
+A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
+NSw4NjA5MjEyNjldfQ==
 -->
