@@ -462,11 +462,14 @@ $ vim .gitignore
 *.log
 log/
 $ git status
+$ git commit -am "Exclude log files"
+$ git status
 ```
 
 ## Cleanup and Back to Origin (GitHub)
 ```
 $ cd projects/starter-web/
+$ ls
 $ git status
 <clean, but ahead of origin>
 $ git pull origin master
@@ -474,7 +477,7 @@ $ git push origin master
 <Go to browser and see>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTMxMTI3NiwtMTc1MzUwNTUyNiwtND
+eyJoaXN0b3J5IjpbMTg0MzcxMTU2OCwtMTc1MzUwNTUyNiwtND
 Q5MTUwNzQsNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5
 MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExOD
 QxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwODQzODAy
