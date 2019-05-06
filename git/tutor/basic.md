@@ -87,7 +87,7 @@ $ ls -la
 $ git status
 ```
 
-> **Note**: origin - Remote reference.
+> **Note**: origin - Remote reference to the github repository.
 
 ## Add commit pull & push
 ```
@@ -193,7 +193,7 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3ND
-c2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3
-LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mz
+g3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMy
+MCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
 -->
