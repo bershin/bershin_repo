@@ -415,9 +415,14 @@ $ git log --follow -- level1/level2/level3.txt
 $ git show <sha1-id>
 ```
 
+## Git Alias
+
+```
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTM0MjQ2MTAsLTQ0OTE1MDc0LDc3Nz
+eyJoaXN0b3J5IjpbLTE3NTM1MDU1MjYsLTQ0OTE1MDc0LDc3Nz
 UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
 LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
 c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
