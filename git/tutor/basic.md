@@ -304,6 +304,7 @@ $ git status
 ### Delete file not tracked by git
 
 ```
+$ cd projects/starter-web
 $ git status
 $ mate doomed.txt
 $ ls
@@ -477,10 +478,10 @@ $ git push origin master
 <Go to browser and see>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzcxMTU2OCwtMTc1MzUwNTUyNiwtND
-Q5MTUwNzQsNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5
-MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExOD
-QxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwODQzODAy
-LDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOT
-IxMjY5XX0=
+eyJoaXN0b3J5IjpbOTc2NTcwNDEwLDE4NDM3MTE1NjgsLTE3NT
+M1MDU1MjYsLTQ0OTE1MDc0LDc3NzUzMTAzNiwxMzM5NzA2NTg5
+LDE3NzAwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1Mj
+I5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3Mzcs
+MTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNj
+M3MTg1LDg2MDkyMTI2OV19
 -->
