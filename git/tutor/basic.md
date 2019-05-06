@@ -288,24 +288,19 @@ $ cd level1/
 $ ls
 $ git status
 <Delete and am add>
-$ mv level2.txt ..
-$ ls
-$ cd ..
-$ ls
-$ git status
-<Looks like we deleted and created a new file>
-$ git add -A
-$ git status
+$ git add level1.txt
+$ git add -u
+<Update the git index>
 $ git commit
-$ cd ..
-$ cd level3/
-$ ls
 $ git status
 ```
+
+## Delete Files in git
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODA2MjA5MCwxMzM5NzA2NTg5LDE3Nz
-AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
-LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
-g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
-LDg2MDkyMTI2OV19
+eyJoaXN0b3J5IjpbLTEwNjk4MDY4NjQsMTMzOTcwNjU4OSwxNz
+cwMDc0MzkxLDE1MzgzOTA0MSw4Mjk1Mjc4NDksMTMwNTIyOTEw
+MiwyMTE4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMD
+A4NDM4MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4
+NSw4NjA5MjEyNjldfQ==
 -->
