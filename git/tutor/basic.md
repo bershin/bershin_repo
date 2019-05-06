@@ -29,6 +29,7 @@
     <Shows changes to be commited>
     $ git commit
     <Invoke the default editor>
+    <Shows the SHA1 hashcode unique to this commit>
     $ git status
 
 > Note: root-commit means very first commit of this repository.
@@ -104,6 +105,7 @@ $ git status
 $ git commit
 <Invoke the default editor>
 $ git status
+<Head of orgin/master by 1 commit>
 $ git pull origin master
 $ git push origin master
 ```
@@ -193,7 +195,8 @@ $ cat level1-file.txt
 <Shows 2 paragraph>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTIyOTEwMiwyMTE4NDE1Mjk5LDE5Mz
-g3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4MDIsMTYxMTQzODMy
-MCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4NjA5MjEyNjldfQ==
+eyJoaXN0b3J5IjpbLTEzMzY2NzgzNTYsMTMwNTIyOTEwMiwyMT
+E4NDE1Mjk5LDE5Mzg3NzA0ODMsMjc0NzY1NzM3LDEwMDA4NDM4
+MDIsMTYxMTQzODMyMCw2MzE2MDQ3NTcsLTM1MTYzNzE4NSw4Nj
+A5MjEyNjldfQ==
 -->
