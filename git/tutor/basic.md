@@ -240,7 +240,7 @@ $ git mv 2.txt level2.txt
 $ git status
 ```
 
-### Move the file to another directory
+### Move the file to another directory using Git
 
 ```
 $ cd level1/level2
@@ -249,15 +249,38 @@ $ git status
 $ git mv level2.txt level3
 $ ls
 $ cd level3
- ls
+$ ls
 $ git status
 $ cd ..
 $ git status
-$ git mv 2.txt level2.txt
+$ git commit
+ls
+$ cd level3/
+$ ls
+$ git status
+```
+
+### Move the file to another directory using OS command
+
+```
+$ cd level3
+$ ls
+$ git status
+$ mv level2.txt level3
+$ ls
+$ cd level3
+$ ls
+$ git status
+$ cd ..
+$ git status
+$ git commit
+ls
+$ cd level3/
+$ ls
 $ git status
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDkxOTI5OSwxMzM5NzA2NTg5LDE3Nz
+eyJoaXN0b3J5IjpbMTczNzA2MzQzOSwxMzM5NzA2NTg5LDE3Nz
 AwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwxMzA1MjI5MTAy
 LDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3NjU3MzcsMTAwMD
 g0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1NywtMzUxNjM3MTg1
