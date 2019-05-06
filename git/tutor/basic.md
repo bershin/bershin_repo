@@ -354,18 +354,14 @@ $ ls
 $ rm -rf level1
 $ ls
 $ git status
-<See the untracked file>
-$ git rm doomed.txt
-<Git complain it can`t match the file>
-$ rm doomed.txt
-$ ls
-<File is gone>
+<See all the untracked file inside the folders>
+$ git add -A
 $ git status
-<Clean>
+$ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MDYyOTAxLDEzMzk3MDY1ODksMTc3MD
+eyJoaXN0b3J5IjpbNzc3NTMxMDM2LDEzMzk3MDY1ODksMTc3MD
 A3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5LDEzMDUyMjkxMDIs
 MjExODQxNTI5OSwxOTM4NzcwNDgzLDI3NDc2NTczNywxMDAwOD
 QzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3LC0zNTE2MzcxODUs
