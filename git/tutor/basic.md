@@ -253,8 +253,9 @@ $ git status
 $ cd level1/level2
 $ ls
 $ git status
-$ git mv level2.txt level3
+$ git mv level2.txt level3/
 $ ls
+<File no longer exist>
 $ cd level3
 $ ls
 $ git status
@@ -368,9 +369,9 @@ $ git commit -m "deleteting level1 and all children"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM0ODc1MDEsNzc3NTMxMDM2LDEzMz
-k3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEsODI5NTI3ODQ5
-LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4NzcwNDgzLDI3ND
-c2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAsNjMxNjA0NzU3
-LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbMTgyMDkzNjg3LDc3NzUzMTAzNiwxMzM5Nz
+A2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQxLDgyOTUyNzg0OSwx
+MzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzODc3MDQ4MywyNzQ3Nj
+U3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIwLDYzMTYwNDc1Nywt
+MzUxNjM3MTg1LDg2MDkyMTI2OV19
 -->
