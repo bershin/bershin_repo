@@ -411,13 +411,15 @@ $ git log ae6f872...761b911
 $ git log --since="3 days ago"
 # commit involves a specific file
 $ git log -- hipster.txt
-$ git log --follow -- level1
+$ git log --follow -- level1/level2/level3.txt
+$ git show <sha1-id>
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzA4MDYwNSwtNDQ5MTUwNzQsNzc3NT
-MxMDM2LDEzMzk3MDY1ODksMTc3MDA3NDM5MSwxNTM4MzkwNDEs
-ODI5NTI3ODQ5LDEzMDUyMjkxMDIsMjExODQxNTI5OSwxOTM4Nz
-cwNDgzLDI3NDc2NTczNywxMDAwODQzODAyLDE2MTE0MzgzMjAs
-NjMxNjA0NzU3LC0zNTE2MzcxODUsODYwOTIxMjY5XX0=
+eyJoaXN0b3J5IjpbLTE3OTM0MjQ2MTAsLTQ0OTE1MDc0LDc3Nz
+UzMTAzNiwxMzM5NzA2NTg5LDE3NzAwNzQzOTEsMTUzODM5MDQx
+LDgyOTUyNzg0OSwxMzA1MjI5MTAyLDIxMTg0MTUyOTksMTkzOD
+c3MDQ4MywyNzQ3NjU3MzcsMTAwMDg0MzgwMiwxNjExNDM4MzIw
+LDYzMTYwNDc1NywtMzUxNjM3MTg1LDg2MDkyMTI2OV19
 -->
